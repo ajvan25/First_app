@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './home.css',
 })
 export class Home {
-
+  clickCounter: number = 0;
+  incrementCounter() {
+    this.clickCounter++;
+  }
 }
